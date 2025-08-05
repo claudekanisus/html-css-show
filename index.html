@@ -1,24 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>html-css-show</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Kendric - Frontend Developer Portfolio</title>
+    <meta name="description" content="Professional frontend developer portfolio showcasing web development, graphic design, and digital marketing services">
+    <meta name="author" content="John Kendric">
+    
+    <meta property="og:title" content="John Kendric - Frontend Developer Portfolio">
+    <meta property="og:description" content="Professional frontend developer portfolio showcasing web development, graphic design, and digital marketing services">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">Portfolio.</div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
 
-    <meta property="og:title" content="html-css-show" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <main class="container">
+        <div class="grid">
+            <!-- Left Column - Hero Section -->
+            <div class="left-column">
+                <!-- Hero Text -->
+                <section class="hero-section">
+                    <h1 class="hero-title">
+                        Hello, It's Me<br>
+                        <span class="text-primary">John Kendric</span><br>
+                        And I'm a <span class="text-primary">Frontend Developer</span>
+                    </h1>
+                    <p class="hero-description">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Aliquam ornare at ipsum molestie blandit.
+                    </p>
+                    
+                    <!-- Social Icons -->
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <span>f</span>
+                        </div>
+                        <div class="social-icon">
+                            <span>t</span>
+                        </div>
+                        <div class="social-icon">
+                            <span>in</span>
+                        </div>
+                    </div>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+                    <button class="btn-primary">Download CV</button>
+                </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+                <!-- About Section -->
+                <section class="about-card">
+                    <div class="about-content">
+                        <div class="about-image-container">
+                            <div class="about-image">
+                                <img src="src/assets/profile-image.jpg" alt="John Kendric - Frontend Developer">
+                            </div>
+                        </div>
+                        <div class="about-text">
+                            <h3 class="about-title">
+                                About <span class="text-primary">Me</span>
+                            </h3>
+                            <h4 class="about-subtitle">Frontend Developer</h4>
+                            <p class="about-description">
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit Aliquam ornare at ipsum molestie blandit neque mauris orci tristique elementum dictumst.
+                            </p>
+                            <button class="btn-primary-small">Read More</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Profile Image (Center) -->
+                <section class="profile-section">
+                    <div class="hexagon-container">
+                        <div class="hexagon-border"></div>
+                        <div class="hexagon-bg">
+                            <img src="src/assets/profile-image.jpg" alt="John Kendric" class="hexagon-image">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Our Services -->
+                <section class="services-card">
+                    <h3 class="section-title">
+                        Our <span class="text-primary">Services</span>
+                    </h3>
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <span>&lt;/&gt;</span>
+                            </div>
+                            <h4 class="service-title">Web Development</h4>
+                            <p class="service-description">Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <button class="btn-service">Read More</button>
+                        </div>
+                        
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <span>🎨</span>
+                            </div>
+                            <h4 class="service-title">Graphic Design</h4>
+                            <p class="service-description">Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <button class="btn-service">Read More</button>
+                        </div>
+                        
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <span>📱</span>
+                            </div>
+                            <h4 class="service-title">Digital Marketing</h4>
+                            <p class="service-description">Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <button class="btn-service">Read More</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Latest Projects -->
+                <section class="projects-card">
+                    <h3 class="section-title">
+                        Latest <span class="text-primary">Project</span>
+                    </h3>
+                    <div class="projects-grid">
+                        <div class="project-item">
+                            <img src="src/assets/project1.jpg" alt="Project 1">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-item">
+                            <img src="src/assets/project2.jpg" alt="Project 2">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-item">
+                            <img src="src/assets/project3.jpg" alt="Project 3">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-item">
+                            <img src="src/assets/project4.jpg" alt="Project 4">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-item">
+                            <img src="src/assets/project5.jpg" alt="Project 5">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-item">
+                            <img src="src/assets/project6.jpg" alt="Project 6">
+                            <div class="project-overlay"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Me -->
+                <section class="contact-card">
+                    <h3 class="section-title">
+                        Contact <span class="text-primary">Me!</span>
+                    </h3>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" class="form-input" required>
+                        <input type="email" placeholder="Your Email" class="form-input" required>
+                        <textarea placeholder="Your Message" rows="4" class="form-textarea" required></textarea>
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
 </html>
